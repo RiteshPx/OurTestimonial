@@ -1,0 +1,52 @@
+.card{
+    margin-top: 10px;
+    height: 50vh;
+    width:50vw;
+    background-color: orchid;
+    position: relative;
+
+}
+img{
+    height: 50%;
+    width:25%;
+    position: absolute;
+    left: 5px;
+    top:-40px;
+    border-radius: 50%;
+    object-fit: fill;
+    background-color: #fff;
+    object-fit: contain;
+}
+.colr{
+    height: 50%;
+    width:25%;
+    background-color: grey;
+    position: absolute;
+    left: 9px;
+    top:-48px;
+    border-radius: 50%;
+}
+.name{
+    font-weight: bolder;
+    /* color :whitesmoke */
+}
+
+.job{
+    font-weight: 300;
+}
+.btn{
+     margin: 10px;
+     width:40px;
+    height: 30px;
+    color: rgb(21, 24, 187);
+
+    }
+
+.surprise{
+    background-color: blue;
+    width:100px;
+    height: 30px;
+    color: whitesmoke;
+    font-weight: 500;
+
+}
